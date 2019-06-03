@@ -351,12 +351,12 @@ public class LinkedList<E>
     }
 
     /**
-     * Appends all of the elements in the specified collection to the end of
-     * this list, in the order that they are returned by the specified
-     * collection's iterator.  The behavior of this operation is undefined if
-     * the specified collection is modified while the operation is in
-     * progress.  (Note that this will occur if the specified collection is
-     * this list, and it's nonempty.)
+     * 将指定集合中的所有元素追加到末尾
+     * 此列表，按指定的返回顺序排列
+     * 集合的迭代器。 如果，则此操作的行为未定义
+     * 操作所在时修改指定的集合
+     * 进步。 （请注意，如果指定的集合是，则会发生这种情况
+     * 这个清单，它是非空的。）
      *
      * @param c collection containing elements to be added to this list
      * @return {@code true} if this list changed as a result of the call
@@ -367,12 +367,12 @@ public class LinkedList<E>
     }
 
     /**
-     * Inserts all of the elements in the specified collection into this
-     * list, starting at the specified position.  Shifts the element
-     * currently at that position (if any) and any subsequent elements to
-     * the right (increases their indices).  The new elements will appear
-     * in the list in the order that they are returned by the
-     * specified collection's iterator.
+     * 将指定集合中的所有元素插入到此中
+     * 列表，从指定位置开始。 移动元素
+     * 目前在该位置（如果有）以及任何后续元素
+     * 权利（增加他们的指数）。 将出现新元素
+     * 在列表中按顺序返回它们
+     * 指定集合的迭代器。
      *
      * @param index index at which to insert the first element
      *              from the specified collection
